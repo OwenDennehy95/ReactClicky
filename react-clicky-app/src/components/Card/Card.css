@@ -1,0 +1,19 @@
+.card {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: .25rem;
+    height: 10rem;
+
+
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+    height: 100%;
+}
